@@ -1,0 +1,16 @@
+ls : look at your surroundings
+cd : used to a change location (use cd .. to move up) (cd ~ OR cd will bring you home)
+less : will print out the contents of a file
+pwd : will show the file path of your parent working directory (i.e the directory you’re currently in)
+
+help : gives a list of available spells 
+man : shows details of a specified spell
+mv : move an object to a new location
+tellme combo : tells the combo for AthenaCluster
+add : adds a locker to your home
+rm : make an item or person disappear
+mkdir : create a new place that has never existed before
+Sudo : perform any action on any item (password =IHTFP)
+grep : Search a phrase in a book (or file)
+touch : create an item
+cp : make a copy of an item with a new name
