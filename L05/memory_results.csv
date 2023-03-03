@@ -1,0 +1,15 @@
+Search Value,Linear Search /kbytes,Binary Search /kbytes,Fibonacci Search /kbytes,Notes
+1,2212,2256,2216,Binary Search did the worst. This is to be expected since it uses recursive function calls. The results are opposite to the timing results.
+4,2240,2196,2304,"Binary search did the best here, which was surprising. Fibonacci Search did much worse than expected too, even if it should be linear space along with linear search. Alas, the results were again opposite their timing counterparts. "
+22,2212,2224,2196,"The results have a logical order. The differences are quite negliable but the constant time algoritms performed better than the recursive algorithm. Again, the results are opposite to the timing results."
+37,2236,2212,2244,"Again, the results were not in an expected order. Here, the memory results directly corresponded with the timing results."
+22906,2240,2216,2124,"Once again, the results were not in an expected order. Here, the memory results were opposite to the timing results."
+53757,2228,2252,2192,The results are now in a logical order. This has little correspondance to the timing results.
+112591,2228,2220,2200,The results were all very similar. This was the same for the timing results.
+361940,2204,2232,2252,"The results here were confusing, and had little correlation with the timing results. In this case, linear search performed the best which was expected."
+475713,2292,2204,2124,"Here, linear search did the worst which was a surprise. The value is somewhat in the middle so the number of recursion calls would have been less in theory, explaining the results of binary search. The results directly correlated to the timing results."
+893766,2220,2204,2260,"Linear search performed well here, but binary search performed better, perhaps due to a lucky index or an error. These results didn't correlate well with the timing results."
+996637,2296,2124,2216,"Linear search did the worst which was a surprise. To explain the results of binary search, it could have simply been the large error for the experiment, and/or a lucky index resulting a few recusive calls. The results correlated well to the timing results."
+996639,2240,2304,2228,Binary search did the worst which is expected. The other resuts are also fairly similar so it's as expected in theory. The results had little correlation to the timing results however.
+996652,2196,2224,2228,"The results were pretty similar, where linear search did the best (as expected). The results correlated fairly well with the timing results (which were all the same values)"
+-996652,2248,2216,2212,Here linear search did the worst while fibonacci search did the best. The large margin on error is a likely cause for the high space used up by linear search compared to the other searches. There was also little correlation with the timing results for this one.
