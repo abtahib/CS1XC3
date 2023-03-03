@@ -2,14 +2,14 @@ Search Value,Linear Search /s,Binary Search /s,Fibonacci Search /s,Notes
 1,0.004,0.003,0.003,"Binary and Fibonacci performed the best. This is expected since the value doesn't exist, therefore the lower time complexity would be best."
 4,0.003,0.004,0.003,"Linear and fibonacci search performed the best. Linear should be the fastest since it starts and ends after evaluating only the first index, but the error margin is too big for this problem for it to show in the results."
 22,0.003,0.003,0.004,"Linear and fibonacci search performed the best, likely due to the fact that the value is close to the start of the array, and the inconsistencies in the benchmark."
-37,0.004,0.003,0.004,Binary search did the best. This is to be expected.
+37,0.004,0.003,0.004,"Binary search did the best. This is to be expected."
 22906,0.003,0.003,0.004,"Linear and binary search performed the best, likely due to the fact that the value is close to the start of the array, and the inconsistencies in the benchmark."
-53757,0.004,0.003,0.003,Binary and Fibonacci performed the best. They both have O(logn) time complexities so this is to be expected.
-112591,0.004,0.004,0.004,They all tied. Likely due to large error margin and benchmark inconsistencies.
-361940,0.004,0.004,0.004,They all tied. Likely due to large error margin and benchmark inconsistencies.
-475713,0.004,0.004,0.003,Fibonacci search did the best. A low time complexity makes this somewhat expected
-893766,0.004,0.004,0.004,They all tied. Likely due to large error margin and benchmark inconsistencies.
-996637,0.004,0.003,0.003,Binary and Fibonacci performed the best. They both have O(logn) time complexities so this is to be expected.
-996639,0.003,0.003,0.004,Linear and binary search performed the best. Linear search is likely only so low due to the high margin of error.
-996652,0.004,0.004,0.004,They all tied. Likely due to large error margin and benchmark inconsistencies.
--996652,0.004,0.003,0.004,Binary search did the best. This is to be expected.
+53757,0.004,0.003,0.003,"Binary and Fibonacci performed the best. They both have O(logn) time complexities so this is to be expected."
+112591,0.004,0.004,0.004,"They all tied. Likely due to large error margin and benchmark inconsistencies."
+361940,0.004,0.004,0.004,"They all tied. Likely due to large error margin and benchmark inconsistencies."
+475713,0.004,0.004,0.003,"Fibonacci search did the best. A low time complexity makes this somewhat expected"
+893766,0.004,0.004,0.004,"They all tied. Likely due to large error margin and benchmark inconsistencies."
+996637,0.004,0.003,0.003,"Binary and Fibonacci performed the best. They both have O(logn) time complexities so this is to be expected."
+996639,0.003,0.003,0.004,"Linear and binary search performed the best. Linear search is likely only so low due to the high margin of error."
+996652,0.004,0.004,0.004,"They all tied. Likely due to large error margin and benchmark inconsistencies."
+-996652,0.004,0.003,0.004,"Binary search did the best. This is to be expected."
