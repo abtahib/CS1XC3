@@ -1,0 +1,5 @@
+- Since there's only one decimal place, because the number is so small, it will only show up as 0.0
+
+- It's an iterative function and therefore doesn't call itself. So the only time it gets called is in the main function which is called once every time the program is run.
+
+- A larger number will need to have more recursive calls done to evaluate all its factors, so yes. But for the number of prime factors, this will depend on the number. For example, 8 has 2 and 3 while 9 only has 3, even though 8>9.

@@ -1,0 +1,7 @@
+a. Both algorithms are similar because they produce the same output and follow a somewhat similar process for finding the factors, but they are different in their implementations. Recursively, more memory is used, and since the function is calling itself, it does also have more repetition.
+
+b. 107 is most executed for the recursive factors and 215 is the most executed for the iterative factors. They are similar but not the same.
+
+c. The printArray function is never used/run, found with gcov.
+
+d. A good place to start would be to try and reduce the number of times the most executed lines are run and to remove lines that are not run.
