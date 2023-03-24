@@ -13,3 +13,6 @@
 [submodule "L08/L08-tut"]
 	path = L08/L08-tut
 	url = git@github.com:abtahib/L08-tut.git
+[submodule "L08/L08-tut-2"]
+	path = L08/L08-tut-2
+	url = git@github.com:abtahib/L08-tut-2.git
