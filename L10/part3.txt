@@ -1,10 +1,10 @@
-grep -r --include="*.tex" "\\includegraphics" .
-grep -r --include="*.tex" -E "\\begin *{[^{}]*[^{} ]}" .
-grep -r -i "arbitrary\|bitwidth\|pointer" .
-grep -EHirn --include=*.(tex) 'to be' | grep -Ei '\.(tex)$' | grep -Ei 'S.*\.tex$' | grep -Ei '\<(am|are|is|was|were|be|being|been)\>'
-grep -zohrP '(?s)\\begin{itemize}\n\\item.*?\n\\end{itemize}' *
-grep -r -E -i -w -n --include=*.{txt,md,py,sh} '\<pointer\>[^{]*?\s+[RSTLNErstlne][[:alnum:]]*' *
-grep -oP '\b \w*[aeiou]{2}\w* \b' *
-grep -Pzo 'if\s*\([^\(\)]*(\((?1)\)[^\(\)]*)*\)\s*{\s*(?s:.*)?\n\s*}' */*.c
-grep -rE "^(int|void|float|char)+(\s|\*\s)+(\**\w+\s*\([^\)]*\)\s*){" . | cut -d':' -f1
-grep -E '^[[:digit:]]+(\s*[\+\-\*\/]\s*[[:digit:]]+)+$' <file>
+grep -r -h --include="*.tex" "\\includegraphics" .
+grep -r -h --include="*.tex" -E "\\begin *{[^{}]*[^{} ]}" .
+grep -r -i -h "arbitrary\|bitwidth\|pointer" .
+grep -r -n -h --include="*S*.tex" -E "\b(are|is|were|was|will be|has been|have been|had been|will have been)\b" .
+grep -r -h -A1 '\\begin{itemize}' | grep -B1 '\\item' //grep -z -r -E "\\begin\{itemize\}\n\\item" .
+grep -E -h -i -o -r "\{?pointer\}? +[RSTLNErstlne][[:alnum:]_]*" *
+grep -r -h -E -o -s ' (*\w[aeiou]{2}\w*) ' .
+grep -r -h -E -z -o 'if\s*\(([^()]|\(([^()]|\(([^()])*\))*\))*\)\s*\{([^{}]|(\{([^{}]|\{([^{}]|\{([^{}]|\{[^{}]*\})*\})*\})*\}))*\}' .
+grep -r -E -h -o '^\s*(int|void|float|char)\s+(\*\s+)*\w+\s*\([^()]*\)\s*{' .
+grep -r -E -o -h '[0-9]+(\s{1}[+/*\-]\s{1}[0-9])' .
